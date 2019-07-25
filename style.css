@@ -55,7 +55,39 @@ body {
     font-weight: 600;
     margin-top: 100px;
 }
+.start{
+   margin-left:220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%,10%);
+    width: 900px;
+    background: #fff;
+    display: flex;
+}
 
+.start .image{
+   width: 700px;
+   
+}
+.start .image img{
+    max-width: 100%;
+}
+.start .dummy_text{
+    width: 750px;
+    padding-left: 20px;
+}
+.start .dummy_text h2{
+    margin-top: 50px;
+    margin: 0;
+    padding-left: 0;
+    font-size: 20px;
+}
+.start .dummy_text p{
+    margin: 0
+    padding-left: 30px 0 0;
+    text-align: justify;
+}
 
 
 
